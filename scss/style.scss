@@ -148,7 +148,10 @@
 .header__content {
     display: flex;
     justify-content: space-between;
-    padding-top: 190px;
+    
+    @media screen and (max-width: 880px) {
+        padding-top: 190px;
+    }
 }
 
 .header__info {
