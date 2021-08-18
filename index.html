@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
@@ -17,35 +17,35 @@
                 <div class="menu">
                     <span></span>
                 </div>
-                <ul class="header__list header__list--first">
-                    <li class="header__list-item">
-                        <a class="header__list-link" href="#">Главная</a>
-                    </li>
-                    <li class="header__list-item">
-                        <a class="header__list-link" href="#">Тариф</a>
-                    </li>
-                    <li class="header__list-item">
-                        <a class="header__list-link" href="#">Контакты</a>
-                    </li>
-                </ul>
+                <nav class="nav">
+                    <ul class="header__list">
+                        <li class="header__list-item">
+                            <a class="header__list-link" href="#">Главная</a>
+                        </li>
+                        <li class="header__list-item">
+                            <a class="header__list-link" href="#">Тариф</a>
+                        </li>
+                        <li class="header__list-item">
+                            <a class="header__list-link" href="#">Контакты</a>
+                        </li>
+                        <li class="header__list-item header__list-item--toright">
+                            <a class="header__list-link" href="#">Регистрация</a>
+                        </li>
+                        <li class="header__list-item">
+                            <a class="header__list-link" href="#">Вход</a>
+                        </li>
+                        <li class="header__list-item">
+                            <a class="header__list-link" href="#">Robokassa</a>
+                        </li>
+                    </ul>
+                </nav>
                 <a class="logo header__logo" href="#">
                     <img class="logo__img" src="images/icons/logo.png" alt="">
                 </a>
-                <ul class="header__list header__list--second">
-                    <li class="header__list-item">
-                        <a class="header__list-link" href="#">Регистрация</a>
-                    </li>
-                    <li class="header__list-item">
-                        <a class="header__list-link" href="#">Вход</a>
-                    </li>
-                    <li class="header__list-item">
-                        <a class="header__list-link" href="#">Robokassa</a>
-                    </li>
-                </ul>
             </div>
             <div class="header__content">
                 <div class="header__info">
-                    <h1 class="header__title">
+                    <h1 class="header__title" id="point">
                         Современное решение рутинных задач бизнеса
                     </h1>
                     <p class="header__text">
@@ -322,6 +322,7 @@
         </div>
     </div>
 </footer>
+<script src="js/noframework.waypoints.min.js"></script>
 <script src="js/script.js"></script>
 </body>
 
